@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.container{
+  width: 100%;
+  margin-top: -40px;
+}
+/*На всех страницах*/
+.height_smoll{
+  height: 1500px;
+}
+.height_big{
+  height: 2800px;
+}
+.header{
+  width: 100%;
+  height: 200px;
+  background: #A3BCFA;
+}
+.nav{
+  width: 100%;
+  height: 80px;
+  background: rgba(163, 188, 250, 0.43);
+  padding: 10px 0px;
+  margin-right: 0px;
+}
+.nav__item{
+  float: left;
+  list-style-type: none;
+  width: 22.5%;
+  height: 50px;
+  background: #C6C6C6;
+  font-size: 36px; 
+  text-align: center;
+  color: #005700;
+  border-radius: 20px;
+}
+.left{
+  margin: 0px 105px;
+}
+.active{
+  background: #898686;
+}
+.header__title{
+  color: #005700;
+  font-size: 48px;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+}
+.main{
+  background: #E9CEC2;
+  width: 85%;
+  display: inline-block;
+}
+.aside{
+  width: 15%;
+  background: #FEF7B7;
+  float: right;
+}
+/*Первая и Вторая страница*/
+.section{
+  display: inline-table;
+  width: 350px;
+}
+.section__list{
+  height: 485px;
+}
+.list__item{
+  font-size: 20px;
+  color: #970505;
+}
+.section__headline{
+  font-size: 24px;
+  text-align: center;
+  color: #005700;
+}
+.subtitle{
+  font-weight: 500;
+  font-size: 36px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.main__text{
+  width: 95%;
+  margin: 0px 25px 30px 25px;
+  font-weight: 400;
+  line-height: 1px;
+  font-size: 24px;
+  line-height: 29px;
+}
